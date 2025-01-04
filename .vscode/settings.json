@@ -1,0 +1,6 @@
+{
+  "diffEditor.renderSideBySideInlineBreakpoint": 9,
+  "editor.smoothScrolling": false,
+  "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+  "editor.stickyScroll.scrollWithEditor": false
+}
