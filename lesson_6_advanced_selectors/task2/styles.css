@@ -7,9 +7,17 @@ ol li {
   color: white;
 }
 
+ol li::marker {
+  color: black;
+}
+
 ul li {
   background-color: orange;
   color: white;
+}
+
+ul li::marker {
+  color: black;
 }
 
 #special + li {
