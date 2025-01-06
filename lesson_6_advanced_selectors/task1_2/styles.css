@@ -1,27 +1,25 @@
-a[target="_blank"] {
+.already-learned ol {
+  background-color: green;
+  color: white;
+}
+
+.to-be-learned ol {
+  background-color: orange;
   color: green;
 }
 
-ul, ol {
-  background-color: yellow;
+.already-learned code {
+  background-color: orange;
 }
 
-header, footer {
-  border: 3px dashed blue;
+.to-be-learned code {
+  background-color: green;
 }
 
-h1, h2, h3, h4 {
-  margin-left: 20px;
+#special1 + li h4 code {
+  border: 2px solid blue;
 }
 
-article.new {
+#special2 ~ li {
   font-size: 24px;
-}
-
-li.new {
-  background-color: red;
-}
-
-.new.posted-today {
-  background-color: pink;
 }
