@@ -12,10 +12,10 @@ ul li {
   color: white;
 }
 
-li span {
+#special + li {
   border: 3px solid red;
 }
 
-#special + li {
+#special ~ li {
   margin-left: 16px;
 }
